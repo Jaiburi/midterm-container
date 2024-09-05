@@ -29,6 +29,15 @@ h2 {
     font-size: 45px !important;
 }
 
+h3 {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #4c545d !important;
+    font-weight: 600 !important;
+    font-size: 34px !important;
+}
+
 p {
     width: 50%;
     margin: 0px auto;
@@ -43,24 +52,24 @@ p {
     display: flex;
     justify-content:center;
     flex-direction: row;
-    margin-top: 20px; /* Margen opcional */
+    margin-top: 20px; 
 }
 
 button{
     color:white;
-    margin: 0px 15px 0px 10px !important;
+    margin: 0px 15px 100px 10px !important;
     border: none;
     width:220px;
     height: 60px;
     border-radius: 30px !important;
     font-weight: 400 !important;
-    box-shadow: 2px 2px 0px #20a089; /* Sombra para efecto 3D */
+    box-shadow: 2px 2px 0px #20a089; 
     cursor: pointer;
 }
 
 button:active {
-    box-shadow: none; /* Elimina la sombra al hacer clic, simulando una pulsación */
-    transform: translateY(2px); /* Empuja el botón hacia abajo */
+    box-shadow: none; 
+    transform: translateY(2px); 
 }
 
 .iOS{
@@ -69,4 +78,17 @@ button:active {
 
 .Mac{
     background-color: #6174ff;
+}
+
+.computer-container {
+    margin: 80px 0 0 0;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    left: -30px;
+}
+
+li {
+    margin: 20px 20px 20px 20px;
+    list-style: none;
 }
