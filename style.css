@@ -1,8 +1,72 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
-body {
-    background-color: lightslategrey;
+body{
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.starting-whithespace{
+    height: 150px;
+}
+
+.logo {
+    position:absolute;
+    left: 48%;
+    top: 125px;
+}
+
+h2 {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #4c545d !important;
+    font-weight: 600 !important;
+    font-size: 45px !important;
+}
+
+p {
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: #9fabb2;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    margin-top: 20px; /* Margen opcional */
+}
+
+button{
+    color:white;
+    margin: 0px 15px 0px 10px !important;
+    border: none;
+    width:220px;
+    height: 60px;
+    border-radius: 30px !important;
+    font-weight: 400 !important;
+    box-shadow: 2px 2px 0px #20a089; /* Sombra para efecto 3D */
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: none; /* Elimina la sombra al hacer clic, simulando una pulsación */
+    transform: translateY(2px); /* Empuja el botón hacia abajo */
+}
+
+.iOS{
+    background-color: #26bba5;
+}
+
+.Mac{
+    background-color: #6174ff;
 }
