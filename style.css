@@ -153,58 +153,58 @@ ul li:nth-child(even) {
     grid-template-rows: auto auto auto;
     gap: 20px;
     padding: 10px;
-  }
+}
   
-  .grid-item-3x3.image {
+.grid-item-3x3.image {
     grid-column: span 1;
     grid-row: 1;
     margin:0;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .grid-item-3x3.title {
+.grid-item-3x3.title {
     grid-column: span 1;
     grid-row: 2; 
     text-align: center;
     font-size: 24px;
     color: #4c545d;
     font-weight: 600;
-  }
+}
   
-  .grid-item-3x3.text {
+.grid-item-3x3.text {
     grid-column: span 1; 
     grid-row: 3;
     text-align: center;
     font-size: 16px;
     color: #9fabb2;
     font-weight: 400;
-  }
+}
   
-  .grid-item-3x3 img {
+.grid-item-3x3 img {
     max-width: 100px;
     height: auto;
-  }
+}
 
-  .logos {
+.logos {
     width: 60%;
     margin: 120px auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .logos img {
+.logos img {
     max-width: 200px;
     height: auto;
     margin: 0 50px;
-  }
+}
 
-  #segundos-botones{
+#segundos-botones{
     margin: 40px 0 0 0;
-  }
+}
 
-  footer {
+footer {
     background-color: #f5f6f8;
     padding: 20px;
     display: grid;
@@ -212,18 +212,18 @@ ul li:nth-child(even) {
     align-items: center;
     justify-items: center;
     gap: 20px;
-  }
+}
   
-  footer > div:nth-of-type(1) {
+footer > div:nth-of-type(1) {
     display: flex;
     justify-content: center;
-  }
+}
   
-  footer > div:nth-of-type(1) img {
+footer > div:nth-of-type(1) img {
     max-width: 50px; 
-  }
+}
   
-  .grid-container-2x3 {
+.grid-container-2x3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
@@ -235,21 +235,21 @@ ul li:nth-child(even) {
     color: #545d68;
     position: relative;
     left: -120px;
-  }
+}
   
-  .grid-item-2x3 {
+.grid-item-2x3 {
     padding: 10px;
     border-radius: 4px;
-  }
+}
 
-  footer > div:nth-of-type(3) {
+footer > div:nth-of-type(3) {
     display: flex;
     justify-content: center;
     gap: 10px;
-  }
+}
   
-  footer > div:nth-of-type(3) img {
+footer > div:nth-of-type(3) img {
     width: 24px; 
     height: auto;
     margin: 17px;
-  }
+}
